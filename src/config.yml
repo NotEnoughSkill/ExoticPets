@@ -1,0 +1,134 @@
+Messages:
+  Shop-Disabled: '&c The pet shop is disabled!'
+  List-Disabled: '&c The pet list is disabled!'
+  Invalid-Permission: '&c You do not have enough permissions to do this!'
+  Incorrect-Usage: '&c Incorrect usage, type /Petshelp'
+  Pet-Place: '&c You can not place pets!'
+  Pet-Activated: '&a You just just used a %pet% pet!'
+  Cooldown-Message: '&c This pet is on cooldown for %time% seconds!'
+  Placeholder-Help: '&c Placeholder Help'
+  Pet-Received: '&c You was just given a pet!'
+  Reload-Message: '&c Simple Pets Reloaded!'
+  Offline-Player: '&c This player is offline!'
+  Help-Message:
+    - '&e------- &6&lExotic Pets &e-------'
+    - ' '
+    - '&b&l* &f&l/Pets give <player> <pet>'
+    - ' '
+    - '&b&l* &f&l/Pets give <player> <Simple | Legendary | Mythic>'
+    - ' '
+    - '&b&l* &f&l/Petshop'
+    - ' '
+    - '&b&l* &f&l/Petlist'
+
+Pets:
+  IronGolem:
+    name: '&6&lIronGolem Pet &7(Right-Click)'
+    lore: # Do not / remove any lines to the lore since it will through errors!
+      - '&e&lUSAGE'
+      - '&7* Right-click to get a full'
+      - '&7  inventory of health potions.'
+      - '&r'
+  Cow:
+    name: '&8&lCow Pet &7(Right-Click)'
+    lore: # Do not / remove any lines to the lore since it will through errors!
+      - '&e&lUSAGE'
+      - '&7* Right-click to remove all'
+      - '&7  negative potion effects.'
+      - '&r'
+  Berserker:
+    name: '&4&lBerserker Pet &7(Right-Click)'
+    lore: # Do not / remove any lines to the lore since it will through errors!
+      - '&e&lUSAGE'
+      - '&7* Right-click to get a'
+      - '&7  temporary Strength 4.'
+      - '&r'
+  Value:
+    name: '&3&lValue Pet &7(Right-Click)'
+    lore: # Do not / remove any lines to the lore since it will through errors!
+      - '&e&lUSAGE'
+      - '&7* Right-click to get a random'
+      - '&7  amount of value blocks.'
+      - '&r'
+  Leech:
+    name: '&e&lLeech Pet'
+    lore: # Do not / remove any lines to the lore since it will through errors!
+      - '&e&lUSAGE'
+      - '&7* Place in your inventory to steal'
+      - '&7  health from players around you.'
+      - '&r'
+  Money:
+    name: '&2&lMoney Pet &7(Right-Click)'
+    lore: # Do not / remove any lines to the lore since it will through errors!
+      - '&e&lUSAGE'
+      - '&7* Right-Click to get a'
+      - '&7  2x money boost.'
+      - '&r'
+  Potion:
+    name: '&c&lPotion Pet &7(Right-Click)'
+    lore: # Do not / remove any lines to the lore since it will through errors!
+      - '&e&lUSAGE'
+      - '&7* Right-Click to get a full'
+      - '&7  inventory of health potions.'
+      - '&r'
+  Zombie:
+    name: '&c&lZombie Pet &7(Right-Click)'
+    lore: # Do not / remove any lines to the lore since it will through errors!
+      - '&e&lUSAGE'
+      - '&7* Right-Click to give everyone in a'
+      - '&7  5x5x5 area hunger.'
+      - '&r'
+  Miner:
+    name: '&e&lMiner Pet'
+    lore: # Do not / remove any lines to the lore since it will through errors!
+      - '&e&lUSAGE'
+      - '&7* Place in your inventory to'
+      - '&7  give a passive Haste effect.'
+      - '&r'
+  Spider:
+    name: '&8&lSpider Pet'
+    lore: # Do not / remove any lines to the lore since it will through errors!
+      - '&e&lUSAGE'
+      - '&7* Place in your inventory to give'
+      - '&7  a passive Jump Boost effect.'
+      - '&r'
+  Elsa:
+    name: '&b&lElsa Pet'
+    lore: # Do not / remove any lines to the lore since it will through errors!
+      - '&e&lUSAGE'
+      - '&7* Right-Click to freeze someone'
+      - '&7  that is hitting you.'
+      - '&r'
+  Sonic:
+    name: '&9&lSonic Pet'
+    lore: # Do not / remove any lines to the lore since it will through errors!
+      - '&e&lUSAGE'
+      - '&7* Right-Click to give you'
+      - '&7  temporary Speed 4.'
+      - '&r'
+Eggs:
+  Simple:
+    name: '&7&lSimple Pet Egg'
+    lore: # Do not / remove any lines to the lore since it will through errors!
+      - '&r'
+      - '&7* Right-click to get a'
+      - '&7  random Simple Pet.'
+  Legendary:
+    name: '&6&lLegendary Pet Egg'
+    lore: # Do not / remove any lines to the lore since it will through errors!
+      - '&r'
+      - '&7* Right-click to get a'
+      - '&7  random Legendary Pet.'
+  Mythic:
+    name: '&d&lMythic Pet Egg'
+    lore: # Do not / remove any lines to the lore since it will through errors!
+      - '&r'
+      - '&7* Right-click to get a'
+      - '&7  random Mythic Pet.'
+PetShop:
+  Simple:
+    cost: 30
+  Legendary:
+    cost: 60
+  Mythic:
+    cost: 120

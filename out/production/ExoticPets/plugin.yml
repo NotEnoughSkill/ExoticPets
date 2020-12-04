@@ -1,0 +1,20 @@
+name: ExoticPets
+version: 1.0
+main: me.NotEnoughSkill.simplepets.Main
+author: NotEnoughSkill
+depend: [AutoSell]
+description:
+
+commands:
+  Pets:
+    description: Pets plugin
+    usage:
+  Petshop:
+    description: Pet Shop
+    usage:
+  Petlist:
+    description: Pet List
+    usage:
+  Petshelp:
+    description: Pets Help
+    usage:
